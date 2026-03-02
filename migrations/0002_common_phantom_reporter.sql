@@ -1,0 +1,4 @@
+ALTER TABLE `transactions` ADD `method` enum('cash','online') NOT NULL;--> statement-breakpoint
+ALTER TABLE `transactions` ADD CONSTRAINT `idx_transactions_appointment_unique` UNIQUE(`appointment_id`);--> statement-breakpoint
+ALTER TABLE `transactions` ADD CONSTRAINT `transactions_user_id_users_id_fk` FOREIGN KEY (`user_id`) REFERENCES `users`(`id`) ON DELETE cascade ON UPDATE no action;--> statement-breakpoint
+ALTER TABLE `transactions` ADD CONSTRAINT `transactions_appointment_id_appointments_id_fk` FOREIGN KEY (`appointment_id`) REFERENCES `appointments`(`id`) ON DELETE cascade ON UPDATE no action;

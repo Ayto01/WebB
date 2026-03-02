@@ -1,0 +1,62 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1765315208615,
+      "tag": "0000_lazy_post",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1765769262164,
+      "tag": "0001_flaky_meggan",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1765769863857,
+      "tag": "0002_common_phantom_reporter",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1765841409981,
+      "tag": "0003_familiar_scarecrow",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1765843817847,
+      "tag": "0004_huge_menace",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1765929114514,
+      "tag": "0005_charming_otto_octavius",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1765929719831,
+      "tag": "0006_mixed_preak",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "5",
+      "when": 1765932032594,
+      "tag": "0007_sour_betty_ross",
+      "breakpoints": true
+    }
+  ]
+}
